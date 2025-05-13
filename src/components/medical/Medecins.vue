@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue'
-import api from '../api/api.js'
+import { api } from '@api/api'
 
 const medecins = ref([])
 const nomRecherche = ref('')

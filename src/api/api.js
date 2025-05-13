@@ -1,5 +1,5 @@
 import axios from 'axios'
 
-export default axios.create({
+export const api = axios.create({
     baseURL: 'http://192.168.1.17/restGSB',
 })
