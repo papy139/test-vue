@@ -3,6 +3,56 @@
 @tailwind utilities;
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(207, 207, 207);
+    @apply h-1/2;
+}
+
+hr {
+    width: 50%;
+    height: 4px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-width: 2px ;
+    border-color: green ;
+}
+form {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgb(33, 33, 38);
+}
+
+label {
+    margin-bottom: 20px;
+    color: rgb(207, 207, 207);
+}
+
+input {
+    padding: 10px 2px;
+    border-radius: 5px;
+    box-shadow:
+        3px 3px 4px,
+        gray;
+    display: flex;
+    margin-bottom: 1rem;
+    border: 3px;
+    border-color: black;
+}
+
+button {
+    color: black;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: aqua;
+}
+
+button:hover {
+    color: white;
+    background-color: green;
+    transition: all 0.3s;
 }
